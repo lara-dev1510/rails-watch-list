@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -8px; /* Adjust margin as needed for spacing between cards */
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: calc(33.33% - 16px); /* Adjust width for 3 cards per row and spacing */
+  margin: 8px; /* Adjust margin for spacing between cards */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+  a, h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+
+}

@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+      <div class="fixed-top">
+        <nav class="navbar navbar-light bg-light p-3 border-bottom">
+          <%= link_to "Lists", root_path, class: "navbar-brand text-secondary"%>
+          <%= link_to "Add a list", new_list_path, class: "navbar-brand text-secondary"%>
+        </nav>
+      </div>
+      <div>
+        <%= yield %>
+      </div>
   </body>
 </html>

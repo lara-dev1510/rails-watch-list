@@ -1,0 +1,13 @@
+.delete-link {
+  color: #ff5252; /* Red color for delete button */
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  transition: color 0.3s ease-in-out;
+}
+
+.delete-link:hover {
+  color: #ff0000; /* Darker red on hover */
+}
